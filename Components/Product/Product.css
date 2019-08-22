@@ -1,0 +1,10 @@
+.Product {
+    display: inline-block;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    transition: border, box-shadow .3s;
+    text-align: center;
+}
