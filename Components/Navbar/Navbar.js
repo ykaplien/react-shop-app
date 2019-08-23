@@ -1,8 +1,5 @@
 import React from 'react';
-import App from "../../App";
-import ProductList from '../ProductList/ProductList';
-import Cart from '../Cart/Cart';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = ()=>{
     return(

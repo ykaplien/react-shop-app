@@ -5,6 +5,6 @@ export default props => (
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <h2>Price: {props.price}</h2>
-        <button>Add to cart {props.title}</button>
+        <button onClick={props.handleClick}>Add to cart {props.title}</button>
     </div>
 )
